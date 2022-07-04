@@ -3,7 +3,6 @@ import express, { Express } from "express";
 import morgan from "morgan";
 import routes from "./routes/dreams";
 import helmet from "helmet";
-const bodyParser = require("body-parser");
 const cors = require("cors");
 const router: Express = express();
 // adding Helmet to enhance your API's security
